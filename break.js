@@ -1,0 +1,7 @@
+console.log("exit the loop once you find 100");
+  for(let i=1; i<200;i++){
+    console.log(i)
+    if(i==100){ 
+        break;
+    }
+  }
